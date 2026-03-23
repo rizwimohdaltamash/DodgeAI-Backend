@@ -1,0 +1,5 @@
+customerId,customerName,productId,productName,orderId,deliveryId,invoiceId,paymentId
+C1,John Doe,P1,Laptop,O1,D1,I1,PAY1
+C1,John Doe,P2,Monitor,O1,D1,I1,PAY1
+C2,Jane Smith,P3,Keyboard,O2,D2,I2,PAY2
+C3,Alice Brown,P1,Laptop,O3,D3,I3,PAY3
