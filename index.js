@@ -15,6 +15,7 @@ app.use(express.json());
 
 // Health check — Render uses this to confirm the service is alive
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
+app.get('/', (req, res) => res.json({ service: 'DodgeAI Backend', status: 'running' }));
 
 // Routes
 const graphRoutes = require('./routes/graph');
